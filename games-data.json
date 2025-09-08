@@ -1,6 +1,7 @@
 {
   "games": [
     {
+      "id": "grand-city-racing",
       "category": "Racing, Cars, Embedded Games",
       "embedlink": "https://www.twoplayergames.org/embed/grand-city-racing",
       "imageUrl": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/grandcityracing1.avif",
@@ -17,6 +18,7 @@
       "videolink": "https://www.youtube-nocookie.com/embed/RCWph4YmDL4?si=XIWmd0-yOxTdfVDa"
     },
     {
+      "id": "hazmob-fps",
       "category": "FPS, Embedded Games",
       "embedlink": "https://html5.gamedistribution.com/623baec23d504c83acab0b5250859ba8/?gd_sdk_referrer_url=https://gamedistribution.com/games/hazmob-fps/",
       "imageUrl": "https://cdn.jsdelivr.net/gh/archnemix/Hazmob-img@main/Hazmob-FPS.jpg",
@@ -32,6 +34,7 @@
       "videolink": "https://www.youtube.com/embed/wXzLKzfMcEo?"
     },
     {
+      "id": "temple-run-2",
       "category": "Running, Embedded Games, Endless Runner",
       "embedlink": "https://html5.gamemonetize.co/pkyyuilfrqkcdnmrxsg60j22ypk0peje/",
       "imageUrl": "https://cdn.jsdelivr.net/gh/archnemix/Temple-run-2-images@main/main%20(2).png",
