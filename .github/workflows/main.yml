@@ -2,7 +2,7 @@ name: Purge jsDelivr Cache
 
 on:
   schedule:
-    # Run every 12 hours
+    # Run every 12 hours (00:00 and 12:00 UTC)
     - cron: "0 */12 * * *"
   workflow_dispatch: # lets you run manually too
 
@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Call jsDelivr purge API
         run: |
-          curl -X GET "https://purge.jsdelivr.net/gh/archnemix/Embedded-games-1@main/games-data.jso
+          curl -X GET "https://purge.jsdelivr.net/gh/archnemix/Embedded-games-1@main/games-data.json"
