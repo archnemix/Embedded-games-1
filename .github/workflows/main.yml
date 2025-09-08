@@ -1,0 +1,15 @@
+name: Purge jsDelivr Cache
+
+on:
+  schedule:
+    # Run every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # lets you run manually too
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call jsDelivr purge API
+        run: |
+          curl -X GET "https://purge.jsdelivr.net/gh/archnemix/Embedded-games-1@main/games-data.jso
