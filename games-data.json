@@ -13,7 +13,7 @@
       "players": 1000,
       "rating": 4.5,
       "shortDescription": "Grand City Racing is a racing game with 3 modes: Racing, Challenge, Free Drive.",
-      "tags": ["racing", "cars", "multiplayer", "arcade", "embedded"],
+      "tags": "racing, cars, multiplayer, arcade, embedded",
       "title": "Grand City Racing",
       "videolink": "https://www.youtube-nocookie.com/embed/RCWph4YmDL4?si=XIWmd0-yOxTdfVDa",
       "releaseDate": "2025-09-08",
