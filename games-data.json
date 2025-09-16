@@ -2,136 +2,99 @@
   "games": [
     {
       "id": "grand-city-racing",
-      "categories": "Racing, Cars, Multiplayer, Embedded",
+      "title": "Grand City Racing",
+      "categories": ["Racing", "Cars", "Multiplayer", "Embedded"],
+      "tags": ["racing", "cars", "multiplayer", "arcade", "embedded"],
       "embedlink": "https://www.twoplayergames.org/embed/grand-city-racing",
-      "imageUrl": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/grandcityracing1.avif",
-      "imageurl2": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/main.png",
-      "imageurl3": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/colorchange.png",
-      "imageurl4": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/garage.png",
-      "shortDescription": "Grand City Racing is a racing game with 3 modes: Racing, Challenge, Free Drive.",
-      "description": "Strong racing cars, detailed modification options, and tough races are waiting for you with the Grand City Racing game! There are three game modes: Racing, Challenge, and Free Drive. You can play single-player or two-player. In Racing mode, there are ten races with varying rewards. Challenge mode has four time-attack races. Free Drive mode features a large map with stunt ramps, money stacks, circles, and mountain roads. In the garage, you can customize paint, rims, decals, and upgrade engine parts for better performance.",
-      "controls": {
-        "singlePlayer": {
-          "Move": "W,A,S,D or ARROW KEYS",
-          "NOS": "F",
-          "Look back": "T",
-          "Fix car's position": "R",
-          "Handbrake": "SPACE"
-        },
-        "player1": {
-          "Move": "W,A,S,D",
-          "NOS": "F",
-          "Look back": "T",
-          "Fix car's position": "R",
-          "Handbrake": "SPACE"
-        },
-        "player2": {
-          "Move": "ARROW KEYS",
-          "NOS": "K",
-          "Look back": "L",
-          "Fix car's position": "O",
-          "Handbrake": "RIGHT-SHIFT"
-        }
+      "myembed": {
+        "Local": "https://grand-city-racing-archnemix-local.pages.dev/",
+        "Premium custom start screen": ""
       },
       "mode": "Embedded",
       "players": 1000,
       "rating": 4.5,
-      "tags": "racing, cars, multiplayer, arcade, embedded",
-      "title": "Grand City Racing",
-      "videolink": "https://www.youtube-nocookie.com/embed/RCWph4YmDL4?si=XIWmd0-yOxTdfVDa",
       "releaseDate": "2025-09-08",
-      "source": "TwoPlayerGames.org"
-    },
-    {
-      "id": "hazmob-fps",
-      "categories": "Shooter, FPS, Action, Multiplayer, Embedded",
-      "embedlink": "https://html5.gamedistribution.com/623baec23d504c83acab0b5250859ba8/?gd_sdk_referrer_url=https://gamedistribution.com/games/hazmob-fps/",
-      "imageUrl": "https://cdn.jsdelivr.net/gh/archnemix/Hazmob-img@main/Hazmob-FPS.jpg",
-      "imageurl2": "https://cdn.jsdelivr.net/gh/archnemix/Hazmob-img@main/Hazmob2.jpg",
-      "imageurl3": "https://cdn.jsdelivr.net/gh/archnemix/Hazmob-img@main/hazmob3.webp",
-      "shortDescription": "Hazmob FPS is a tactical first-person shooter with fast-paced action.",
-      "description": "Hazmob FPS is an action-packed tactical war game released on mobile and web. Each player can create strategies and join team battles in various game modes with realistic mechanics and competitive rankings.",
-      "controls": {
-        "singlePlayer": {
-          "Movement": "W,A,S,D",
-          "Jump": "SPACE",
-          "Shoot": "LEFT-MOUSE",
-          "AIM": "RIGHT-MOUSE",
-          "Leaderboard / Pause / Settings": "P",
-          "Pick up weapon": "G",
-          "Crouch": "C",
-          "Run": "SHIFT",
-          "Switch weapons": "1,2,3",
-          "Skills": "4,5,6",
-          "Alternative skill 1": "E",
-          "Alternative skill 2": "Q"
-        }
+      "updateDate": "2025-09-15",
+      "source": "TwoPlayerGames.org",
+      "dev": "RHM Interactive",
+      "status": "active",
+      "adBlock": {
+        "blocked": true,
+        "modes": ["Hard", "Extreme"],
+        "note": "Ads in this game are blocked when Archnemix Adblocker is set to Hard or Extreme mode."
       },
-      "mode": "Embedded",
-      "players": 1220,
-      "rating": 4.5,
-      "tags": "fps, shooter, multiplayer, competitive, embedded",
-      "title": "Hazmob FPS",
-      "videolink": "https://www.youtube.com/embed/wXzLKzfMcEo?",
-      "releaseDate": "2025-09-08",
-      "source": "GameDistribution"
-    },
-    {
-      "id": "temple-run-2",
-      "categories": "Endless Runner, Arcade, Adventure, Embedded",
-      "embedlink": "https://html5.gamemonetize.co/pkyyuilfrqkcdnmrxsg60j22ypk0peje/",
-      "imageUrl": "https://cdn.jsdelivr.net/gh/archnemix/Temple-run-2-images@main/main%20(2).png",
-      "imageurl2": "https://cdn.jsdelivr.net/gh/archnemix/Temple-run-2-images@main/Resume.png",
-      "imageurl3": "https://cdn.jsdelivr.net/gh/archnemix/Temple-run-2-images@main/challanges.png",
-      "imageurl4": "https://cdn.jsdelivr.net/gh/archnemix/Temple-run-2-images@main/Abilities.png",
-      "shortDescription": "Temple Run 2 is a thrilling endless runner with obstacles, coins, and power-ups.",
-      "description": "Temple Run 2 is an endless running adventure where you must escape from a cursed idol while dodging cliffs, mines, and traps. Test your reflexes as you run, jump, slide, and turn across dangerous paths. Collect coins, unlock characters, and upgrade abilities to run further.",
-      "controls": {
-        "singlePlayer": {
-          "Move Left": "Left Arrow or Swipe Left",
-          "Move Right": "Right Arrow or Swipe Right",
-          "Jump": "Up Arrow or Swipe Up",
-          "Slide": "Down Arrow or Swipe Down",
-          "Activate Power": "Spacebar or Click Power Icon"
+      "relatedGames": ["temple-run-2", "subway-surfers"],
+      "platforms": ["Web", "PC", "Mobile Browser"],
+      "language": ["English"],
+      "ageRating": "Everyone 10+",
+      "achievements": [
+        "Win 5 Races",
+        "Unlock 3 Cars",
+        "Earn 10,000 Coins"
+      ],
+      "shortDescription": "Grand City Racing is a racing game with 3 modes: Racing, Challenge, Free Drive.",
+      "description": "Strong racing cars, detailed modification options, and tough races are waiting for you with the Grand City Racing game! There are three game modes: Racing, Challenge, and Free Drive. You can play single-player or two-player. In Racing mode, there are ten races with varying rewards. Challenge mode has four time-attack races. Free Drive mode features a large map with stunt ramps, money stacks, circles, and mountain roads. In the garage, you can customize paint, rims, decals, and upgrade engine parts for better performance.",
+      "images": [
+        {
+          "url": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/grandcityracing1.avif",
+          "type": "screenshot",
+          "caption": "Gameplay screenshot"
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/main.png",
+          "type": "screenshot",
+          "caption": "Main menu"
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/colorchange.png",
+          "type": "feature",
+          "caption": "Car customization"
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/gh/archnemix/Grand-City-Racing-Images@main/garage.png",
+          "type": "garage",
+          "caption": "Garage view"
         }
-      },
-      "mode": "Embedded",
-      "players": 3300,
-      "rating": 4.7,
-      "tags": "endless runner, arcade, pc, adventure, embedded",
-      "title": "Temple Run 2",
-      "videolink": "https://www.youtube-nocookie.com/embed/7pkQ1oImv0k?si=hozVdwC3-tDL_BzV",
-      "releaseDate": "2025-09-08",
-      "source": "GameMonetize"
-    },
-    {
-      "id": "subway-surfers",
-      "categories": "Endless Runner, Arcade, Casual, Embedded",
-      "embedlink": "https://www.rocketgames.io/embed/subway-surfers",
-      "imageUrl": "https://cdn.jsdelivr.net/gh/archnemix/Subway-Surfers-Images@main/Screenshot_2025_09_08-2.png",
-      "imageurl2": "https://cdn.jsdelivr.net/gh/archnemix/Subway-Surfers-Images@main/Screenshot_2025_09_08-4.png",
-      "imageurl3": "https://cdn.jsdelivr.net/gh/archnemix/Subway-Surfers-Images@main/Screenshot_2025_09_08-5.png",
-      "imageurl4": "https://cdn.jsdelivr.net/gh/archnemix/Subway-Surfers-Images@main/Screenshot_2025_09_08-6.png",
-      "imageurl5": "https://cdn.jsdelivr.net/gh/archnemix/Subway-Surfers-Images@main/Screenshot_2025_09_08-7.png",
-      "shortDescription": "Dash, dodge, and surf your way through train tracks in this fast-paced endless runner.",
-      "description": "Subway Surfers is a classic endless runner where you dash across train tracks, dodge obstacles, and collect coins while being chased by a grumpy inspector and his dog. Unlock characters, boards, and boosters to extend your run. Colorful visuals and smooth gameplay make it addictive fun.",
-      "controls": {
-        "singlePlayer": {
-          "Move Left": "Left Arrow or Swipe Left",
-          "Move Right": "Right Arrow or Swipe Right",
-          "Jump": "Up Arrow or Swipe Up",
-          "Slide": "Down Arrow or Swipe Down",
-          "Activate Power-up": "Spacebar or Tap Power Icon"
+      ],
+      "videos": [
+        {
+          "type": "trailer",
+          "platform": "YouTube",
+          "url": "https://www.youtube-nocookie.com/embed/RCWph4YmDL4",
+          "caption": "Official Gameplay Trailer"
+        },
+        {
+          "type": "gameplay",
+          "platform": "MP4",
+          "url": "https://cdn.your-cloudflare-domain.com/videos/grandcityracing-gameplay.mp4",
+          "caption": "Extended Gameplay Demo"
         }
-      },
-      "mode": "Embedded",
-      "players": 553,
-      "rating": 4.2,
-      "tags": "endless runner, arcade, casual, pc, embedded",
-      "title": "Subway Surfers",
-      "videolink": "https://www.youtube-nocookie.com/embed/hDSVKOJx6P4?si=t5hPu4Wf8GLNdeNs",
-      "releaseDate": "2025-09-08",
-      "source": "RocketGames.io"
+      ],
+      "controls": {
+        "Singleplayer": [
+          "Move : W,A,S,D or Arrow Keys",
+          "NOS : F",
+          "Look Back : T",
+          "Fix Car : R",
+          "Handbrake : SPACE"
+        ],
+        "Multiplayer": {
+          "Player1": [
+            "Move : W,A,S,D",
+            "NOS : F",
+            "Look Back : T",
+            "Fix Car : R",
+            "Handbrake : SPACE"
+          ],
+          "Player2": [
+            "Move : Arrow Keys",
+            "NOS : K",
+            "Look Back : L",
+            "Fix Car : O",
+            "Handbrake : RIGHT-SHIFT"
+          ]
+        }
+      }
     }
   ]
 }
